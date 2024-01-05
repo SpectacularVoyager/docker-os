@@ -1,7 +1,7 @@
 #TO CHANGE OS change this line
 IMAGE=archlinux:latest
 
-DOCKER_CONFIG=-it --name arch_linux --rm
+DOCKER_CONFIG=-it --rm
 ROOT_DIR:=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
 run:
