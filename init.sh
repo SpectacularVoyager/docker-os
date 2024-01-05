@@ -1,11 +1,11 @@
 mkdir Volume
 
-docker create --name=___archie___ $1
+docker create --name=archie $1
 
-docker export ___archie___ > export.tar
+docker export archie > export.tar
 
-docker stop ___archie___
-docker rm ___archie___
+docker stop archie
+docker rm archie
 
 tar -xf export.tar -C Volume/
 
