@@ -1,11 +1,11 @@
 mkdir Volume
 
-docker create --name=archie $1
+docker create --name=linuxbuild $1
 
-docker export archie > export.tar
+docker export linuxbuild > export.tar
 
-docker stop archie
-docker rm archie
+docker stop linuxbuild
+docker rm linuxbuild
 
 tar -xf export.tar -C Volume/
 
