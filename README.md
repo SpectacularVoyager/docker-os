@@ -13,7 +13,8 @@ Install an image of your linux based os
 ```bash
     ./init.sh archlinux:latest
 ```
-> use any docker image and make sure init.sh has execute permissions
+> use any docker image and make sure init.sh has execute permissions.
+----
 > To use an OS other than arch linux,change the line in Makefile to your os-image
 ```Makefile
     IMAGE=archlinux:latest
