@@ -24,3 +24,4 @@ Install an image of your linux based os
 ```bash
     make run
 ```
+![Screenshot from 2024-01-05 20-57-10](https://github.com/SpectacularVoyager/docker-os/assets/128292218/36e22c90-8d9a-462e-89c5-18d673fa0b62)
